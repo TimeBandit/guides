@@ -17,3 +17,5 @@ Design the most basic version of what you are after and then make it real. Solve
 Assume everything will be super hard to implement. So leave nice to have out till later.
 
 ### Choose a personality
+
+Look at the site that are visited by the sorts of people you want to reach but don't copy.
