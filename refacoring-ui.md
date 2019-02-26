@@ -19,3 +19,22 @@ Assume everything will be super hard to implement. So leave nice to have out til
 ### Choose a personality
 
 Look at the site that are visited by the sorts of people you want to reach but don't copy.
+
+### Limit your choices
+
+Choose from 8 to 10 shades and a limited set of font sizes chosen ahead of time. You can have system for lots of things like
+Font size
+
+- Font weight
+- Line height
+- Color
+- Margin
+- Padding
+- Width
+- Height
+- Box shadowsLimit your choices
+- Border radius
+- Border width
+- Opacity
+
+# Heirachy
