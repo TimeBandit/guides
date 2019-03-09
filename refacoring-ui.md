@@ -95,13 +95,15 @@ a colour is by adjusting it's lightness. You can adjust each one to compensate f
 You will end up with better results if you start with too much white space and remove it. It's can be fine to have dense
 UI's for things like dashboards, but make it a deliberate choice.
 
-# Establishing a sizing system
+## Establishing a sizing system
 
-Instead of fussing over pixel values, make a system where no two values are less that 25% away from each other.
+Instead of fussing over pixel values, make a sizing system where no two values are less that 25% away from each other.
 And multiples of a base value. An exponential scale works well where lower values are bunched together.
 A good set are 4, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 256, 384, 512, 640, 768
 
 # Filling the screen
+
+#
 
 You don't have to do this. Give each elements the amount of space it needs, no more. Dont brek thing only
 to make them the same width.
@@ -110,8 +112,28 @@ If you're finding it hard to design something small for a larger canvas then shr
 it's best to break a design into columns if you're sturggling to size something on a big canvas that naturally
 looks good on a small canvas.
 
-# The Grid
+## The Grid
 
 Don't think that grids are a solution to everything. You don't always need them. Give sidbars a `max-width`
 and other elements a fixed width or a `max-width` if that's is their optimal size to stay looking good.
 Only shrink them when you need to.
+
+## Don'e use relative sizing 'em'
+
+It doesn't work. When moving fomr a large screen to a small one the larger header must shrink at a faster rate than
+the smaller ones and on small screen their sized should be closer to one another. Allow yourself to fine tune
+things independantly. Whenever your designing groups, suchs as a list of elements, always make sure there is
+more space around the elements than between elements inside it.
+
+# Type
+
+## The scale
+
+For UI deisgn it's better to pick hand crafted values. To stick to a system, do not use `em` units.
+The following sizes go well with the spacing sizes above. 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72
+
+## The fonts
+
+This is a good failsafe `-apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;` if you really
+want to pick a font, then go to Google fonts, crank the font size up to 10 and select from what is left. These fonts
+tend to have been crafted with more care. Remember that talled, closer fonts tend to be for headlines.
