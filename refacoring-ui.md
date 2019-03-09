@@ -73,3 +73,45 @@ Try to resist the temptation to display key value properties straight from your 
 what the data is about because of the context or the format or the data e.g \$, @yahoo.co.uk, %. Labels also make it
 difficult to create heirarchy. If you really need a label then combine it with the data e.g 'Bedrooms: 2', becomes '3 Bedrooms'.
 Use labels where you think the use might be scanning for it such as technical specifications.
+
+## Visual & Document Heirachy
+
+Dont assume that heading that heading tags should stay as they are, use them semantically but style them as you need.
+
+## Weight & Contrast
+
+Weight is how much surface area an element takes up, it could be bold test, an icon or a fat line. Contrast is how so soft
+a colour is by adjusting it's lightness. You can adjust each one to compensate for the other.
+
+## Designing actions on a page
+
+1. The primary action should have a solid hight contract background.
+2. The secondary action should have an outline style or a lower contrast background
+3. Style tertiary actions like links. Don't put them in a box.
+4. Delete actions can be secondary or tertiary, place the primary style in the confirmation model.
+
+# Layout & Spacing
+
+You will end up with better results if you start with too much white space and remove it. It's can be fine to have dense
+UI's for things like dashboards, but make it a deliberate choice.
+
+# Establishing a sizing system
+
+Instead of fussing over pixel values, make a system where no two values are less that 25% away from each other.
+And multiples of a base value. An exponential scale works well where lower values are bunched together.
+A good set are 4, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 256, 384, 512, 640, 768
+
+# Filling the screen
+
+You don't have to do this. Give each elements the amount of space it needs, no more. Dont brek thing only
+to make them the same width.
+
+If you're finding it hard to design something small for a larger canvas then shrink the canvas. Sometimes
+it's best to break a design into columns if you're sturggling to size something on a big canvas that naturally
+looks good on a small canvas.
+
+# The Grid
+
+Don't think that grids are a solution to everything. You don't always need them. Give sidbars a `max-width`
+and other elements a fixed width or a `max-width` if that's is their optimal size to stay looking good.
+Only shrink them when you need to.
