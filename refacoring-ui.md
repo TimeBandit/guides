@@ -137,3 +137,27 @@ The following sizes go well with the spacing sizes above. 12, 14, 16, 18, 20, 24
 This is a good failsafe `-apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;` if you really
 want to pick a font, then go to Google fonts, crank the font size up to 10 and select from what is left. These fonts
 tend to have been crafted with more care. Remember that talled, closer fonts tend to be for headlines.
+
+## Line lengths & links
+
+Keep your line lengths in check otherwise it is too taxing to read. Keep you line lengths 20-35em in width. Use `em`
+because it is relative to your line length. Kepp centext alined on the `baseline`.
+
+Your paragraph width and your line height are proportional. Begin with 1.5 but go as high as 2 for wider paragraphs
+until you can read the next line without losing your position. The font size also has a part to play. Larger fonts
+can get away with smaller line length. Font size and line height are inversley proportional.
+
+Consider taking away link colours in favour of bold text or on hover underline or other effects.
+
+## Readability & alignments
+
+In English most text should be left aligned. If you really need need to center align then it shouldn't be more than 2/3
+short sentences. If it's any longer than this then left align it.
+
+Right align numbers so the decimal positions are aligned. This make them easier to align. If you use justified text
+to give your text a more formal look; set `hyphens: auto` to avoid awkward gaps.
+
+With `letter-spacing` you should normall leave it alone but if you want to use a font that wasn't meant for headlines
+as a headlines then you can decrease it to emulate the look of headline fonts.
+
+Increase the letter spacing of ALL CAPS text to improve legibility.
