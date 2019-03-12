@@ -161,3 +161,5 @@ With `letter-spacing` you should normall leave it alone but if you want to use a
 as a headlines then you can decrease it to emulate the look of headline fonts.
 
 Increase the letter spacing of ALL CAPS text to improve legibility.
+
+# Working with colour
