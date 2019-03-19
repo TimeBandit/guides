@@ -167,4 +167,11 @@ Increase the letter spacing of ALL CAPS text to improve legibility.
 Always work wit HSL and select a primary, a neutral and some accents. Define a fixed set of shades up front. For your primary and accent, a good rule is to go for a shade that would suite
 a button. This is your center shade (500), then the edges and fill in the rest so you have a gradation from dark(900) to light(100).
 
-To avoid getting washed out colour ou could also increase the saturation as the lightness get further away from 50%;
+To avoid getting washed out colour ou could also increase the saturation as the lightness get further away from 50% in either direction;
+
+If the colours are already at 100% saturation. This is where you take advantage of percieved brightness. The three peaks in percived brightness are yellow(60), cyan(180), magenta(300)
+and the troughs are red(0) green(120) blue(240). To make a colour seem lighter rotate it 20-30deg
+to the nearest peak, and to make it seem darker do the same against the troughs.
+
+You can combine both these methods to get brightness from adjusting lightness and roatating the
+hue.
