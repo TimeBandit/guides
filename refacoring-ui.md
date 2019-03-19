@@ -163,3 +163,8 @@ as a headlines then you can decrease it to emulate the look of headline fonts.
 Increase the letter spacing of ALL CAPS text to improve legibility.
 
 # Working with colour
+
+Always work wit HSL and select a primary, a neutral and some accents. Define a fixed set of shades up front. For your primary and accent, a good rule is to go for a shade that would suite
+a button. This is your center shade (500), then the edges and fill in the rest so you have a gradation from dark(900) to light(100).
+
+To avoid getting washed out colour ou could also increase the saturation as the lightness get further away from 50%;
