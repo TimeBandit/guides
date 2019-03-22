@@ -162,7 +162,7 @@ as a headlines then you can decrease it to emulate the look of headline fonts.
 
 Increase the letter spacing of ALL CAPS text to improve legibility.
 
-# Working with colour
+## Working with colour
 
 Always work wit HSL and select a primary, a neutral and some accents. Define a fixed set of shades up front. For your primary and accent, a good rule is to go for a shade that would suite
 a button. This is your center shade (500), then the edges and fill in the rest so you have a gradation from dark(900) to light(100).
@@ -174,4 +174,12 @@ and the troughs are red(0) green(120) blue(240). To make a colour seem lighter r
 to the nearest peak, and to make it seem darker do the same against the troughs.
 
 You can combine both these methods to get brightness from adjusting lightness and roatating the
-hue.
+hue, but dont rotate the hue by more than 20-30deg.
+
+## Greys
+
+A neutral grey has a saturation of 0%. For a cool grey saturate with a bit of blue. For a warm grey add a bit of yellow or orange. Remember to increase the saturation as you increase the lightness to prevent the colour from looking washed out.
+
+## Accessability
+
+Use [this](https://webaim.org/resources/contrastchecker/) tool if you want to make your sites accesable to all. Sometimes light text on a dark background isn't a greate thing consider using dark text on a light background or with dark backgrounds rotate te hue of the light text colour towards a brighter colour (cyan, magenta, yellow).
