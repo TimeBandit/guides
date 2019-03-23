@@ -183,3 +183,13 @@ A neutral grey has a saturation of 0%. For a cool grey saturate with a bit of bl
 ## Accessability
 
 Use [this](https://webaim.org/resources/contrastchecker/) tool if you want to make your sites accesable to all. Sometimes light text on a dark background isn't a greate thing consider using dark text on a light background or with dark backgrounds rotate te hue of the light text colour towards a brighter colour (cyan, magenta, yellow).
+
+# Creating Depth
+
+When creating depth for your elements, remember **remember light comes from above**.
+
+With an rasied element add an inset box shadow on the top with no blur radius, e.e `box-shadow: inset 0 1px 0 hsl(224, 84%, 74%)` and a regular box shadow on the bottom edge with a slight blue radius `box-shadow: 0 1px 3px hsla(0, 0%, 0%, .2);`. In both cases hand pick the colour.
+
+For inset elements give the bottom edge a lighter colour or use an inset shadow. For the top edge give it a darker inset box shadow.
+
+Don't overdo it 😁
