@@ -192,4 +192,12 @@ With an rasied element add an inset box shadow on the top with no blur radius, e
 
 For inset elements give the bottom edge a lighter colour or use an inset shadow. For the top edge give it a darker inset box shadow.
 
-Don't overdo it 😁
+Don't overdo it 😁. Use shadows to convey elevation and grab the users atention. Use a small one for a button, a medium one for something like a drop down and a large one for something like a modal. To make the process easier establish an **elevation system**; 5 should be enough. Start with the smallest and the largest, then pick the middle and fill in the rest. Here is a good set to start with:
+
+- 0 1px 3px hsla(0, 0%, 0%, .2)
+- 0 4px 6px hsla(0, 0%, 0%, .2)
+- 0 4px 15px hsla(0, 0%, 0%, .2)
+- 0 10px 24px hsla(0, 0%, 0%, .2)
+- 0 15px 35px hsla(0, 0%, 0%, .2)
+
+Combine them with an interaction to give some motion to a click/drag. You can combine two shadows to make things look more realistic in that one will be the direct light and the other the sharper shadow you get when ambient light cant reach underneath an object. The first will have a greater vertical offset with a larger blur, the second will have a less vertical offset & smaller blur: `box-shadow: 0 4px 6px hsla(), 0 5px 15px hsla()`
