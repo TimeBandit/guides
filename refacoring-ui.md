@@ -201,3 +201,6 @@ Don't overdo it 😁. Use shadows to convey elevation and grab the users atentio
 - 0 15px 35px hsla(0, 0%, 0%, .2)
 
 Combine them with an interaction to give some motion to a click/drag. You can combine two shadows to make things look more realistic in that one will be the direct light and the other the sharper shadow you get when ambient light cant reach underneath an object. The first will have a greater vertical offset with a larger blur, the second will have a less vertical offset & smaller blur: `box-shadow: 0 4px 6px hsla(), 0 5px 15px hsla()`
+
+You can also create depth in flat colour schemes using colour or solid shadows.
+Dark colours look furter away and light colours look closer. You can also create depth by overlapping elements by using negative margins.
