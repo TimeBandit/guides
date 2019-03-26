@@ -204,3 +204,11 @@ Combine them with an interaction to give some motion to a click/drag. You can co
 
 You can also create depth in flat colour schemes using colour or solid shadows.
 Dark colours look furter away and light colours look closer. You can also create depth by overlapping elements by using negative margins.
+
+# Photos
+
+Use good photos so hire a photographer or but stock photos. Adding text over over an image can be difficult. To help with this add a semi-transparent black or white overlay to an image and then your text over that. Other techniques are to lower the image contrast, colourize the image or add a `text-shadow: 0,0,50px hsla(0, 0%, 0%, .4);`
+
+# Icons
+
+Don't scale up icons, becuase they don't have the details to loog good at a larger size. Instead keep them small and enclose them in a coloured shape.
