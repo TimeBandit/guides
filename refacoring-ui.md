@@ -211,4 +211,12 @@ Use good photos so hire a photographer or but stock photos. Adding text over ove
 
 # Icons
 
-Don't scale up icons, becuase they don't have the details to loog good at a larger size. Instead keep them small and enclose them in a coloured shape.
+Don't scale up icons, becuase they don't have the details to look good at a larger size. Instead keep them small and enclose them in a coloured shape. Don't scale them down either, better to scale a simplified version of the.
+
+# Screenshots
+
+Don't try to display a shrunk screenshot of your app. It will make people squint. Insead, show a simplified version, or a portion and a shot of it in mobile layout.
+
+# Images
+
+If you have images where their background colours slightly match with the background colour of the container give it an inset box-shadow `box-shadow: inset 0 2px 4px 0 hsla(0,0,0,.2)` or a semi-transparent inner border `box-shadow: inset 0 0 0 1px hsla(0,0,0,.1)`.
