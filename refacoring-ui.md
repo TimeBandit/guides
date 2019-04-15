@@ -220,3 +220,8 @@ Don't try to display a shrunk screenshot of your app. It will make people squint
 ## Images
 
 If you have images where their background colours slightly match with the background colour of the container give it an inset box-shadow `box-shadow: inset 0 2px 4px 0 hsla(0,0,0,.2)` or a semi-transparent inner border `box-shadow: inset 0 0 0 1px hsla(0,0,0,.1)`.
+
+If the images are user uploads, show them inside a fixed container and crop out the rest. You can
+do this with `background-size: cover`.
+
+# Supercharge
