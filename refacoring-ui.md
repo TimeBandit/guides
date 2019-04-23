@@ -224,4 +224,16 @@ If you have images where their background colours slightly match with the backgr
 If the images are user uploads, show them inside a fixed container and crop out the rest. You can
 do this with `background-size: cover`.
 
-# Supercharge
+# Supercharge the defaults
+
+- lists with customer bulltets
+- styles links
+- accented borders
+- navigations states
+- changing the background colour
+- gradients with two hues no more than 30deg apart
+- repeat patterns
+- adding simple shape or illustration
+- think about empty states
+- use fewer borders
+- box shadows/ two different bg colours/ extra spacing
